@@ -64,6 +64,11 @@ class UnorderedList:
             current = current.next
         return number
     
+    def is_empty(self):
+        if self.head is None:
+            return True
+        return False
+    
 
 
 
